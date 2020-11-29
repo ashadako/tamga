@@ -3,3 +3,39 @@
     top: 8px;
     right: 16px;
     font-size: 18px;}
+
+.container {
+    position: relative;}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;}
+
+td {
+    border: 2px solid rgb(116, 113, 113);
+    padding: 2px;}
+
+th {
+    border: 2px solid rgb(116, 113, 113);
+    padding: 2px;}
+
+body {
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav a {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#nav a.topimage {
+    width: 20px;
+    height: 20px;
+    background: greenyellow;
+    border-radius: 10px;
+}
